@@ -1,0 +1,60 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-20T09:28:43.919Z",
+        "line": 4,
+        "name": "Browser",
+        "description": "",
+        "id": "open-browser;browser",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9942346800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the browser",
+            "match": {
+              "location": "Step_Def5.open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10992456900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter the url",
+            "match": {
+              "location": "Step_Def5.enter_the_url()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9011751500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Home page is displayed",
+            "match": {
+              "location": "Step_Def5.home_page_is_displayed()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "Open Browser",
+    "description": "",
+    "id": "open-browser",
+    "keyword": "Feature",
+    "uri": "classpath:Selenium_Fox/OpenWeb2.feature",
+    "tags": []
+  }
+]

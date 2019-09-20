@@ -1,17 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.018984">
-<testcase classname="Login" name="Success Login" time="0.017518">
-<system-out><![CDATA[Given Enter "Megna" and.....................................................passed
-And Enter the "abbbsd123" in the field......................................passed
-When Click on Login button..................................................passed
-Then Home page is displayed.................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Login" name="Success Login 2" time="0.001466">
-<system-out><![CDATA[Given Enter "Pravena" and...................................................passed
-And Enter the "hhsf124" in the field........................................passed
-When Click on Login button..................................................passed
-Then Home page is displayed.................................................passed
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="17.865584">
+<testcase classname="Open Browser" name="Browser" time="17.865584">
+<system-out><![CDATA[Given Open the browser......................................................passed
+And Enter the url...........................................................passed
+When Home page is displayed.................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
